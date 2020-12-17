@@ -1,0 +1,59 @@
+//#include <stdio.h>
+//#include <stdlib.h>
+//
+//int main()
+//{
+//    printf("Hello world!\n");
+//    return 0;
+//}
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int n,m,l,k,i,j,c,b,a,e;
+    printf("请输入第一个矩阵的行:");
+    scanf("%d",&n);
+    printf("请输入第一个矩阵的列:");
+    scanf("%d",&m);
+    int arr1[n][m];
+    int arr2[l][k];
+    printf("请输入第一个矩阵的值:");
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<m;j++)
+        {
+            scanf("%d",&arr1[i][j]);
+        }
+    }
+    printf("请输入第二个矩阵的值:");
+    for(i=0;i<l;i++)
+    {
+        for(j=0;j<k;j++)
+        {
+            scanf("%d",&arr2[i][j]);
+        }
+    }
+    int arr3[n][m];
+    for(i=0;i<n;i++)
+    {
+        for(j=0;j<m;j++)
+        {
+            arr3[i][j]=0;
+            for(a=0;a<k;a++)
+            {
+                for(b=0;b<m;b++)
+                {
+                    
+                }
+            }
+        }
+    }
+     for(i=0;i<n;i++)
+    {
+        for(j=0;j<m;j++)
+        {
+            printf("%d ",arr3[i][j]);
+        }
+    }
+    return 0;
+}
